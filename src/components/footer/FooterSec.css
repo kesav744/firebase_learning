@@ -1,0 +1,23 @@
+.footer-icon {
+    margin-top: 30px;
+    margin-left: -50px;
+}
+
+.footer-icon address {
+    line-height: 1.7;
+    margin-left: 8px;
+}
+
+.footer-icon img {
+    height: 35px;
+    width: auto;
+}
+
+.footer-sec ul {
+    list-style-type: none;
+    margin-left: -39px;
+}
+
+.footer-sec h2 {
+    font-size: 1.2rem;
+}

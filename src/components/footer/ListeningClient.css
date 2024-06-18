@@ -1,0 +1,40 @@
+.listening {
+    min-height: 120vh;
+    background-color: var(--main-col);
+}
+
+.listening h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;     
+}
+
+.listening-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.indicators-wrapper {
+    display: flex;
+    gap: 4px;
+}
+
+.indicators {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(140, 217, 236);
+    border-radius: 50%;
+}
+
+.active {
+    background-color: var(--header-contact-col);
+}
+
+.cart-maintaining-div {
+    width: 70vw;
+    height: 80vh;
+    margin: 0 auto;
+}

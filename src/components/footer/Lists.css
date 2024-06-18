@@ -1,0 +1,15 @@
+.list {
+    line-height: 2;    
+}
+
+.list:hover {
+    scale: 1.1;
+}
+
+.list a {
+    cursor: pointer;
+}
+
+.list a:hover {
+    color: var(--header-span);      
+}

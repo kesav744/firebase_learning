@@ -1,0 +1,41 @@
+.illuminating {
+    min-height: 130vh;
+    color: var(--illum-col);
+}
+
+.illuminating-div1 {    
+    display: flex;   
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;    
+}
+
+.illuminating-div1 h1 {    
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    width: 55%;
+    margin-bottom: 10px;  
+    
+}
+
+.illuminating-div1 p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+}
+
+.illuminating-div2, .illuminating-div3 {    
+    display: flex;   
+    justify-content: center;
+    align-items: center;    
+}
+
+.illuminating-div3 p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 90px;
+}

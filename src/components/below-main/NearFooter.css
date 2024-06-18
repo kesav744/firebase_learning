@@ -1,0 +1,44 @@
+.nearfooter {
+  width: 80%;
+  min-height: 50vh;
+  background-color: var(--header-contact-col);
+  margin: 100px auto;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+}
+
+.nearfooter-div1 {
+  margin-left: 150px;
+}
+
+.nearfooter-div2 {
+  margin-left: 80px;
+  width: 38vw;
+}
+
+.nearfooter-div2 h2 {
+    margin-top: -30px;
+}
+
+.nearfooter-div2-bottom input {
+  color: var(--black);
+  border: 1px solid var(--header-contact-col);
+  padding: 14px 23px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+}
+
+.nearfooter-div2-bottom button {
+  padding: 14px 25px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--black);
+}

@@ -1,0 +1,42 @@
+.main {
+    min-height: 400vh;
+    background-color: var(--main-col);
+}
+
+.main-top {
+    display: flex;   
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.main-top h1 {    
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    width: 55%;
+    margin-bottom: 10px;  
+    color: var(--illum-col);
+}
+
+.main-top p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+    color: var(--main-p);
+}
+
+.main-middle {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 40px auto;
+    gap: 50px;
+}
+
+.main-middle-hpb {
+    display: flex;
+    align-items: center;
+
+}

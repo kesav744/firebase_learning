@@ -1,0 +1,44 @@
+.welcome-bottom {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins",sans-serif;
+}
+
+.welcome-bottom-main {
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 50vw;
+    min-height: 100vh;
+    border-radius: 30px;
+    background-color: #ffffff28;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+       
+}
+
+.welcome-bottom-main-div1 {
+    width: 70%;
+    margin-left: 50px;
+}
+
+.welcome-bottom-main-div1 h1 {
+    margin: 0;
+}
+
+.welcome-bottom-main-div1 button {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: inherit;
+    font-weight: 400;
+    padding: 10px 60px;
+    margin-right: 12px;
+    border-radius: 30px;
+    border: 1px solid var(--black);
+    cursor: pointer;
+}
+
+.welcome-bottom-main-div1 button:hover {
+    background-color: rgb(110, 109, 109);
+    border: 1px solid rgb(110, 109, 109);
+}

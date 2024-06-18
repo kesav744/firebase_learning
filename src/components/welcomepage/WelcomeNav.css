@@ -1,0 +1,72 @@
+.welcome-top-navbar {
+        font-family: "Poppins", sans-serif;
+        margin-top: 15px;
+}
+
+.welcome-top-navbar div {
+    display: inline;
+    position: relative;    
+}
+
+.welcome-top-navbar div img {
+    position: absolute; 
+    top: 7px;
+    left: 7px;
+}
+
+.welcome-top-navbar > * {
+    margin-right: 12px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.welcome-top-navbar div input {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    width: 120px;
+    padding: 5px;
+    border-radius: 28px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1rem;
+    text-indent: 18px;
+}
+
+.welcome-top-navbar div input::placeholder {
+    text-indent: 18px;
+}
+
+.welcome-top-navbar select {
+    border: none;
+}
+
+.login, .signup {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 6px 22px;
+    border-radius: 8px;
+    border: 1px solid var(--black);
+    
+    cursor: pointer;
+}
+
+.login {
+    background-color: var(--white);
+}
+
+.signup {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.login:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.signup:hover {
+    background-color: rgb(110, 109, 109);
+    border: 1px solid rgb(110, 109, 109);
+}
